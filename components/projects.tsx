@@ -18,7 +18,7 @@ export function Projects() {
     initialDisplay: 6,
     loadMoreCount: 3,
     background: {"image":"","video":"","color":"","opacity":0.1},
-    projects: [{"image":"/uploads/project-0-1765025162165.png","video":"","title":"2024 왕가탕후루 부동산 입지 분석","description":"이거함\n"},{"image":"/uploads/project-1-1765025174800.png","video":"","title":"침수피해 지역 선정과 해결방안 제시_서울시 반지하 자율주택정비사업을 대상으로","description":"음"}] as Array<{ image: string; video?: string; title: string; description: string }>
+    projects: [{"image":"/uploads/project-0-1765025162165.png","video":"","title":"2024 왕가탕후루 부동산 입지 분석","description":"이거함\n"},{"image":"/uploads/project-1-1765025174800.png","video":"","title":"침수피해 지역 선정과 해결방안 제시_서울시 반지하 자율주택정비사업을 대상으로","description":"음"},{"image":"/uploads/project-1765029480868-1765029480902.png","video":"","title":"포항시 흥해읍 도시재생 사례","description":"이거는 그거임 대자연재해!!!!!"}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)

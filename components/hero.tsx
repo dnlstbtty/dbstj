@@ -40,7 +40,7 @@ export function Hero() {
     name: "신윤서",
     title: "공간 데이터에 혁신을 더해, 지속 가능한 도시 생태계를 설계하는 예비 도시계획가",
     description: "\n\n",
-    profileImage: "/uploads/hero-profile-1761477237286.png",
+    profileImage: "/uploads/hero-profile-1765029359737.jpg",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,
