@@ -18,7 +18,7 @@ export function Projects() {
     initialDisplay: 6,
     loadMoreCount: 3,
     background: {"image":"","video":"","color":"","opacity":0.1},
-    projects: [{"image":"https://drive.google.com/file/d/1_afZ9QfPxWNvMi2iBFoFS2_DMzWnA7_h/view?usp=drive_link","video":"","title":"2024 왕가탕후루 부동산 입지 분석","description":"흠흠"},{"image":"https://drive.google.com/file/d/1pie5aoQsdAezBXK26-Y8lpG7DYA3D7bx/view?usp=drive_link","video":"","title":"침수피해 지역 선정과 해결방안 제시_서울시 반지하 자율주택정비사업을 대상으로","description":"음"}] as Array<{ image: string; video?: string; title: string; description: string }>
+    projects: [{"image":"/uploads/project-0-1765025162165.png","video":"","title":"2024 왕가탕후루 부동산 입지 분석","description":"이거함\n"},{"image":"/uploads/project-1-1765025174800.png","video":"","title":"침수피해 지역 선정과 해결방안 제시_서울시 반지하 자율주택정비사업을 대상으로","description":"음"}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)
