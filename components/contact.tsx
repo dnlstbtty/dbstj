@@ -38,7 +38,7 @@ export function Contact() {
     title: "도시계획부동산학부 학생",
     company: "",
     experience: "3년 경력",
-    phone: "010-9404-0329",
+    phone: "010-0000-0000",
     email: "dnlstbtty0305@naver.com",
     website: "",
     location: "인천광역시 서구",

@@ -97,14 +97,14 @@ export function About() {
   // 기본 데이터
   const defaultInfo = {
     title: "소개",
-    subtitle: "당신의 전문성과 열정을 소개해주세요.",
-    background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"briefcase","title":"회사명","period":"2020 - 현재","description":"직무 및 역할"},{"icon":"graduation","title":"학교명","period":"2016 - 2020","description":"전공 및 학위"},{"icon":"award","title":"자격증/수상","period":"2021","description":"설명을 입력하세요"}],
-    skills: [{"icon":"code","title":"프론트엔드 개발","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"database","title":"백엔드 개발","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"palette","title":"UI/UX 디자인","description":"사용자 중심의 인터페이스 디자인"}],
-    storyTitle: "나의 이야기",
-    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
+    subtitle: "매순간 진심을 다해 쌓아온\n저의 시간들을 소개합니다",
+    background: {"image":"","video":"","color":"#7bc068","opacity":0.1},
+    experienceCards: [{"icon":"graduation","title":"단국대학교 죽전캠퍼스","period":"2023 ~ 2028 (졸업예정)","description":"도시계획부동산학부 입학"},{"icon":"trophy","title":"2023 지역답사 수상","period":"2023.11","description":"2023년 \"인천 원도심 활성화 방안\"을 주제로 한 학부 학술제 2등 수상"},{"icon":"trophy","title":"2024 지역답사 수상","period":"2024.11","description":"2024년 \"청주 공간 리모델링 사례 및 개선방안\"을 주제로 한 학부 학술제 2등 수상"},{"icon":"award","title":"용인 미래정책제안 공모전 입상","period":"2025.7","description":"용인시를 대상으로 한 정책 제안 공모전, 도시 활성화를 위한 대학 연계 교육과정 제안을 주제로 미래정책부문 수상 "},{"icon":"rocket","title":"교비어학연수","period":"2025.01.04 - 2025.02.08","description":"뉴질랜드 교비어학연수 경험을 통한 \"낯선 환경에 대한 적응력 및 도전적인 실행력\" "},{"icon":"star","title":"한국교통안전공단 TS 기자단","period":"2025.04 - 2025.07","description":"도시 교통 시스템과 안전 인프라 홍보를 통한 일상생활의 전공 지식 함양"},{"icon":"star","title":"한국농어촌공사 농촌관광 기자단","period":"2025.06 - 2025.12","description":"지역소멸과 수도권 과밀의 도시 변화 속, 농촌의 매력을 알리고 홍보"},{"icon":"heart","title":"도시계획부동산학부 학생회","period":"2023 - 2024","description":"투명한 예산 운용과 재무 관리 역량 확충"},{"icon":"target","title":"자격증 ㅣ 한국사 1급","period":"2025","description":"목표 기업을 향한 자격증 취득"},{"icon":"target","title":"자격증 ㅣ 컴퓨터활용능력 1급","period":"2024","description":"목표 기업을 향한 자격증 취득"}],
+    skills: [{"icon":"pieChart","title":"Arc GIS","description":"평면적인 2D 데이터를 3D 공간 정보로 시각화하여 도시 문제를 선제적으로 예측합니다. 데이터에 기반한 다각적인 시뮬레이션을 통해 도시 성장의 불확실성을 줄이고, 가장 효율적이고 안전한 도시 계획을 실현합니다."},{"icon":"barChart","title":"R Studio","description":"데이터의 통계적 분석 및 실증적 타당성 확보 역량을 바탕으로 계획의 논리적 완결성을 높입니다. 방대한 도시 데이터를 정량적으로 처리하여 모호한 도시 문제를 명확한 수치로 규명하고, 정책과 계획의 객관적 근거를 마련합니다."},{"icon":"heart","title":"강점","description":"'대충'과 타협하지 않고 언제나 최상의 결과를 목표로 합니다. 특유의 끈기와 책임감으로 어려움 앞에서도 포기하지 않고 끝까지 성과를 이루어내는 핵심 역량을 갖춥니다."}],
+    storyTitle: "[구도심과 신도시의 간극에서 '사람'을 잇는 도시를 꿈꾸다]",
+    story: ["저의 도시계획에 대한 꿈은 책상이 아닌 삶의 터전에서 시작되었습니다. 구도심의 낡지만 따뜻한 골목과 신도시의 편리하지만 차가운 빌딩 숲을 모두 경험하며, 도시 환경이 삶의 질에 미치는 거대한 영향력을 몸소 체감했습니다.","이러한 간극에 대한 직접적인 체험과 호기심은 미래 도시를 직접 계획하겠다는 확고한 목표가 되었습니다.","3년 간의 학부 생활 동안, 다양한 현장 답사와 프로젝트를 주도하며 '책상 위의 이론'을 '땅 위의 현실'로 구체화하는 법을 배웠습니다. 팀원들과 치열하게 고민하며 최적의 대안을 찾아내는 과정은 협업의 가치를 깨닫게 해주었고, 고향을 떠나 낯선 타지에서의 도전과 끊임없는 자기계발은 더 넓은 세상을 향한 시야를 열어주었습니다.","이제는 축적된 경험을 사회라는 실전의 장으로 확장할 때입니다. 이론과 현장을 잇는 저만의 균형 감각으로, 사람과 공간이 공존하는 지속 가능한 미래 도시를 설계하는 데 기여하겠습니다."],
     storyImage: "",
-    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행"]
+    hobbies: ["✍️ 글쓰기","🎵 음악 감상","☕ 카페 투어"]
   }
   
   const [aboutInfo, setAboutInfo] = useState(defaultInfo)
