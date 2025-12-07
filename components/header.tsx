@@ -25,13 +25,13 @@ const ICON_MAP = {
 
 // 기본 데이터 (파일에는 문자열로 저장되지만 여기서는 컴포넌트로 변환)
 export const defaultConfig = {
-    logo: "신윤서의 포트폴리오",
+    logo: "신윤서의 portfolio",
     logoImage: "",
     showNavBar: true,
     showThemeToggle: true,
     items: [{"name":"Home","url":"#hero","icon":"Home","show":true},{"name":"About","url":"#about","icon":"User","show":true},{"name":"Projects","url":"#projects","icon":"Briefcase","show":true},{"name":"Contact","url":"#contact","icon":"Mail","show":true},{"name":"갤러리","url":"#gallery","icon":"Camera","show":false},{"name":"블로그","url":"#blog","icon":"Book","show":false}],
     siteTitle: "신윤서의 portfolio",
-    siteDescription: "창의적인 아이디어로 웹 경험을 디자인합니다!"
+    siteDescription: "신윤서의 포트폴리오를 소개합니다 !"
   }
 
 export function Header() {

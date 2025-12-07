@@ -38,14 +38,14 @@ export function Hero() {
   const defaultInfo = {
     greeting: "안녕하세요",
     name: "신윤서",
-    title: "공간 데이터에 혁신을 더해, 지속 가능한 도시 생태계를 설계하는 예비 도시계획가",
+    title: "공간 데이터에 혁신을 더해 지속 가능한 도시 생태계를 설계하는 \"예비 도시계획가\"",
     description: "\n\n",
-    profileImage: "/uploads/hero-profile-1765029359737.jpg",
+    profileImage: "",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,
     projectButton: "프로젝트 보기",
-    background: {"image":"","video":"","color":"#dcf07a","opacity":0.1}
+    background: {"image":"/uploads/hero-background-1765114408336.jpg","video":"","color":"","opacity":0.8}
   }
 
   const [backgroundData, setBackgroundData] = useState<{ image: string; video: string; color: string; opacity: number } | null>(null)
