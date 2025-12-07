@@ -24,7 +24,7 @@ export function Footer() {
   const defaultInfo = {
     showFooter: true,
     name: "신윤서",
-    description: "미래 도시계획가",
+    description: "예비 도시계획가",
     showQuickLinks: true,
     quickLinksTitle: "빠른 링크",
     showContactInfo: true,

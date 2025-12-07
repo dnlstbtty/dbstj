@@ -33,19 +33,19 @@ export function Hero() {
   const { getData, saveData, isEditMode, saveToFile, saveFieldToFile } = useInlineEditor()
   
   // 초기 데이터 - 배열 형태로 변경
-  const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/username"},{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@username"}]
+  const defaultSocialLinks = [{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@noncitygirls?si=yeSKaHw8Z5vhrwjA"},{"name":"Instagram","icon":"instagram","url":"https://www.instagram.com/_winshhutty?igsh=MXo3cTViOGhmOW1h&utm_source=qr"},{"name":"새 링크","icon":"github","url":"dbstj.vercel.app"}]
   
   const defaultInfo = {
     greeting: "안녕하세요",
     name: "신윤서",
-    title: "공간 데이터에 혁신을 더해 지속 가능한 도시 생태계를 설계하는 \"예비 도시계획가\"",
-    description: "공간 데이터에 혁신을 더해 지속 가능한 도시 생태계를 설계합니다.",
+    title: "단국대학교 도시계획부동산학부 학생",
+    description: "공간 데이터에 혁신을 더해 지속 가능한 도시 생태계를 설계하는 \"예비 도시계획가\"",
     profileImage: "",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,
     projectButton: "프로젝트 보기",
-    background: {"image":"/uploads/hero-bg.jpg","video":"","color":"","opacity":0.8}
+    background: {"image":"/uploads/hero-background-1765119054901.jpg","video":"","color":"","opacity":0.8}
   }
 
   const [backgroundData, setBackgroundData] = useState<{ image: string; video: string; color: string; opacity: number } | null>(null)
