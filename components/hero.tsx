@@ -40,7 +40,7 @@ export function Hero() {
     name: "신윤서",
     title: "단국대학교 도시계획부동산학부 학생",
     description: "공간 데이터에 혁신을 더해 지속 가능한 도시 생태계를 설계하는 \"예비 도시계획가\"",
-    profileImage: "",
+    profileImage: "/uploads/hero-profile-1765110877686.jpg",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,
